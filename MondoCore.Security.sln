@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35825.156
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MondoCore.Security", "MondoCore.Security\MondoCore.Security.csproj", "{78BBEDD0-8BB4-DAB0-117F-37FEA45313C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MondoCore.Security.FunctionalTests", "MondoCore.Security.FunctionalTests\MondoCore.Security.FunctionalTests.csproj", "{328AE607-D492-8BE6-4D41-C53A4B5070A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MondoCore.Security.UnitTests", "MondoCore.Security.UnitTests\MondoCore.Security.UnitTests.csproj", "{D2C50D58-6678-E426-49F3-E7E99EE2B6DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MondoCore.Security.Function", "MondoCore.Security.Function\MondoCore.Security.Function.csproj", "{EDEC1B51-EF0F-452E-81FE-ACBF0F5FC1A3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{78BBEDD0-8BB4-DAB0-117F-37FEA45313C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78BBEDD0-8BB4-DAB0-117F-37FEA45313C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78BBEDD0-8BB4-DAB0-117F-37FEA45313C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78BBEDD0-8BB4-DAB0-117F-37FEA45313C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{328AE607-D492-8BE6-4D41-C53A4B5070A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{328AE607-D492-8BE6-4D41-C53A4B5070A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{328AE607-D492-8BE6-4D41-C53A4B5070A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{328AE607-D492-8BE6-4D41-C53A4B5070A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2C50D58-6678-E426-49F3-E7E99EE2B6DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2C50D58-6678-E426-49F3-E7E99EE2B6DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2C50D58-6678-E426-49F3-E7E99EE2B6DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2C50D58-6678-E426-49F3-E7E99EE2B6DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDEC1B51-EF0F-452E-81FE-ACBF0F5FC1A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDEC1B51-EF0F-452E-81FE-ACBF0F5FC1A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDEC1B51-EF0F-452E-81FE-ACBF0F5FC1A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDEC1B51-EF0F-452E-81FE-ACBF0F5FC1A3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2E27C934-D147-444F-96A1-B5C1BDFC3AF0}
+	EndGlobalSection
+EndGlobal
